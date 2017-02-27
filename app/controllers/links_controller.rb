@@ -1,7 +1,7 @@
 class LinksController < ApplicationController
 
   def index
-    @reads = Read.all
+    @reads = Read.top_ten
   end
 
 end

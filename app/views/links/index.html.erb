@@ -1,5 +1,10 @@
-<h1>Welcome to Hot Reads!</h1>
+<div class="container">
+  <h1>Welcome to Hot Reads!</h1>
 
-<% @reads.each do |read| %>
-<%= read.url %>
-<% end %>
+  <ol>
+  <% @reads.each do |read| %>
+  <li><%= read[0] %></li>
+  <% end %>
+  </ol>
+  <img src="http://i.giphy.com/l4KhVp1aGeqzeMDok.gif">
+</div>
