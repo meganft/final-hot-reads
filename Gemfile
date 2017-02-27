@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'pry'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'rb-readline'
 
 
 # Use Capistrano for deployment
