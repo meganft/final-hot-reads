@@ -28,7 +28,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
-
+  gem 'simplecov'
+  gem 'database_cleaner'
 end
 
 group :development do

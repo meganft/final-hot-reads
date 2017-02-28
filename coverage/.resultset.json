@@ -1,0 +1,39 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/megantalbot/turing/4module/final-assessment/final-hot-reads/app/models/read.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        22,
+        null,
+        null,
+        null
+      ],
+      "/Users/megantalbot/turing/4module/final-assessment/final-hot-reads/app/controllers/api/v1/reads_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/megantalbot/turing/4module/final-assessment/final-hot-reads/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1488251752
+  }
+}
