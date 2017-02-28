@@ -1,9 +1,11 @@
 <div class="container">
   <h1>Welcome to Hot Reads!</h1>
 
-  <ol>
+  <ol class="link-list" onload="sendData()">
   <% @reads.each do |read| %>
-  <li><%= read[0] %></li>
+  <div class="link" data-link-url="<%= read[0] %>">
+
+  <li><p><%= read[0] %></li>
   <% end %>
   </ol>
   <img src="http://i.giphy.com/l4KhVp1aGeqzeMDok.gif">
