@@ -7,6 +7,7 @@ $( document ).ready(function(){
     var topLink = $(this).children().first();
     var $link = $(this).parents('.link');
     var url = topLink.data('link-url');
+    debugger;
 
     $.ajax({
      type: "POST",

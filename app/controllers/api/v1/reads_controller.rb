@@ -6,4 +6,8 @@ class Api::V1::ReadsController < ApplicationController
     render json: read, status: 200
   end
 
-end
+  def index
+    reads = Read.all
+    render json: reads, status: 200
+
+  end
