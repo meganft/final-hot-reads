@@ -1,24 +1,46 @@
-# README
+# Hot Reads
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
 
-Things you may want to cover:
+Hot Reads is a place to track popular links and urls.
 
-* Ruby version
+## Setup
 
-* System dependencies
+To run locally:
+```
+git clone git@github.com:meganft/final-hot-reads.git
+cd final-hot-reads
+rake db:create
+rake db:migrate
+rails s
+visit http://localhost:3000/
+```
 
-* Configuration
+To run the tests:
+```
+rspec
+```
 
-* Database creation
+To see it in production, click here:
+* [Hot Reads](http://hot-reads-final.herokuapp.com/)
 
-* Database initialization
 
-* How to run the test suite
+## Info
 
-* Services (job queues, cache servers, search engines, etc.)
+This app is written in Rails v5.0.0.1. The database is postgresql. Tests written
+in rspec-rails. Coverage provided by simplecov.
 
-* Deployment instructions
+## Licensing
 
-* ...
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING B
